@@ -152,3 +152,5 @@ sketch
 .history
 
 # End of https://www.toptal.com/developers/gitignore/api/react,node,git,visualstudiocode
+
+dev.js
