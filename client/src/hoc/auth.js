@@ -17,10 +17,6 @@ export default function(SpecificComponent, option, adminRoute = null){
                     }else{
                         if(adminRoute && !response.payload.isAdmin){
                             props.history.push('/');
-                        }else{
-                            if(!option){
-                                props.history.push('/');
-                            }
                         }
                     }
                 });
